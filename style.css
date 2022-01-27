@@ -1,0 +1,63 @@
+    body {
+        font-family: 'Bebas Neue';font-size: 22px;
+    }
+
+
+*{
+    background-color: #191818;
+}
+
+#resultado{
+    color: #D4C8BB;
+    font-size: 72px;
+    text-align: right;
+    margin-right: 38px;
+    margin-top: 142px;
+}
+.space-clean{
+    height: 100px;
+}
+.space-btn{
+    margin-left: 8px;
+}
+.btn{
+    width: 69px;
+    height: 69px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+ 
+    font-size: 36px;
+}
+
+.type-one{
+    color: #D4C8BB;
+    border: 3px solid #D4C8BB;
+    background-color: #191818;
+}
+
+.type-two{
+    color: #D4C8BB;
+    border: 3px solid #7B60A6;
+    background-color: #191818;
+}
+
+.type-num{
+    color: #191818 ;
+    border: 3px solid #D4C8BB;
+    background-color: #D4C8BB;
+}
+
+.igual{
+    background-color: #7B60A6;
+}
+
+.calculadora{
+    width: 360px;
+    height: 640px;
+    position: absolute;
+    background-color: #191818;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="calculadora">
+            <div class="space-clean">
+                <p id="resultado">  </p>
+            </div>
+            <table class="space-btn">
+                <tr> 
+                    <td><button class="btn type-one" onclick="clean()">C</button></td>
+                    <td><button class="btn type-one" onclick="back()"> < </button></td>
+                    <td><button class="btn type-one" onclick="inserir('%')">%</button></td>
+                    <td><button class="btn type-two" onclick="inserir('/')">/</button></td>
+                </tr>
+
+                <tr> 
+                    <td><button class="btn type-num" onclick="inserir('7')">7</button></td>
+                    <td><button class="btn type-num" onclick="inserir('8')">8</button></td>
+                    <td><button class="btn type-num" onclick="inserir('9')">9</button></td>
+                    <td><button class="btn type-two" onclick="inserir('*')">X</button></td>
+                </tr>
+
+                <tr> 
+                    <td><button class="btn type-num" onclick="inserir('4')">4</button></td>
+                    <td><button class="btn type-num" onclick="inserir('5')">5</button></td>
+                    <td><button class="btn type-num" onclick="inserir('6')">6</button></td>
+                    <td><button class="btn type-two" onclick="inserir('-')">-</button></td>
+                </tr>
+
+                <tr> 
+                    <td><button class="btn type-num" onclick="inserir('1')">1</button></td>
+                    <td><button class="btn type-num" onclick="inserir('2')">2</button></td>
+                    <td><button class="btn type-num" onclick="inserir('3')">3</button></td>
+                    <td><button class="btn type-two" onclick="inserir('+')">+</button></td>
+                </tr>
+
+                <tr> 
+                    <td><button class="btn type-num">N</button></td>
+                    <td><button class="btn type-num" onclick="inserir('0')">0</button></td>
+                    <td><button class="btn type-num">,</button></td>
+                    <td><button class="btn type-two igual" onclick="calcular()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
+
+<!-- resultado.textContent = `${nome.value} seu IMC é de ${valorIMC}, e isso significa que ${classific}` ; -->
